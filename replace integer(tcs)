@@ -4,7 +4,8 @@
 
 using namespace std;
 
-int modified_integer(int n ){
+int modified_integer(int n )
+{
     
     
     int ans_num = 0;
@@ -23,12 +24,14 @@ int modified_integer(int n ){
 int main()
 {
     int n;
+
     cin>>n;
     
     if(n>0 || n>1000000){
         cout<<"wrong output";
     }
-    else{
+    else
+{
         cout<<modified_integer(n);
     }
 
