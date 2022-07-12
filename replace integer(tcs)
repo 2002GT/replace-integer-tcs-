@@ -9,11 +9,13 @@ int modified_integer(int n )
     
     
     int ans_num = 0;
+    
     int power = 0;
     
     while(n>0){
         
       int remender = n%10;
+      
       ans_num += ((9-remender)*pow(10, power++));
       n = n/10;
     }
